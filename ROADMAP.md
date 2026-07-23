@@ -1,45 +1,24 @@
-# Roadmap
+MVP DO CORE
 
-## Core
+[x] Container
+[x] DI
+[x] Application
+[x] Providers
+[x] Config
 
-- [x] Router
-- [x] CLI
-- [x] Migration
-- [x] Query Builder
-- [ ] ORM
-- [ ] Model
-- [ ] Validation
-- [ ] Authentication
-- [ ] Authorization
-- [ ] Sessions
-- [ ] Upload
-- [ ] Cache
-- [ ] Mail
-- [ ] Events
-- [ ] Queue
+[ ] HTTP
+[?] Router (precisa verificar o que temos e o que falta)
+[ ] Views
+[ ] Database
+[ ] Validation
+[ ] Session
 
----
+============================
 
-## Infraestrutura
+INÍCIO DO MARKET
 
-- [ ] Logging
-- [ ] Config
-- [ ] Environment
-- [ ] Exceptions
+O desenvolvimento do Market passa a guiar a evolução do Core.
 
----
+Toda nova funcionalidade do Core deve nascer de uma necessidade real identificada durante o desenvolvimento de um produto.
 
-## Ferramentas
-
-- [ ] Make Seeder
-- [ ] Make Factory
-- [ ] Make Middleware
-- [ ] Make Command
-
----
-
-## Testes
-
-Cobertura mínima desejada:
-
-90%
+Evitar desenvolvimento especulativo.

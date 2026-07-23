@@ -51,3 +51,20 @@ Evitar dependências externas sempre que possível.
 Criar soluções próprias quando o custo de manutenção justificar.
 
 Bibliotecas externas somente quando realmente agregarem valor.
+
+## Application Lifecycle
+
+A classe `Application` é responsável por orquestrar o ciclo de vida da aplicação.
+
+O ciclo ocorre em duas fases:
+
+1. Register
+2. Boot
+
+Durante a fase de register todos os Service Providers registram seus serviços no Container.
+
+Somente após todos os providers terem sido registrados é iniciada a fase de boot.
+
+Isso garante que qualquer provider possa depender de serviços registrados por outro provider.
+
+Após a aplicação ser inicializada (`boot()`), qualquer provider registrado posteriormente será automaticamente inicializado.

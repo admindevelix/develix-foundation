@@ -138,3 +138,11 @@ Tudo que for específico pertence ao produto.
 Cada linha escrita hoje deve facilitar a escrita das próximas mil.
 
 Essa é a essência da Develix.
+
+---
+
+# Product-Driven Development
+
+O Core não é desenvolvido por antecipação.
+
+Ele evolui conforme necessidades reais surgem durante o desenvolvimento dos produtos da Develix.

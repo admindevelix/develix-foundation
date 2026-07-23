@@ -74,3 +74,23 @@ Toda decisão deve tornar o próximo produto da Develix mais rápido de ser dese
 Nenhuma decisão deve favorecer apenas um sistema específico.
 
 Sempre priorizar simplicidade, legibilidade e independência de bibliotecas externas.
+
+
+## Implemented
+
+✓ Container
+✓ Dependency Injection
+✓ Service Providers
+✓ Application
+✓ Config
+✓ ConfigRepository
+✓ ConfigServiceProvider
+
+Current Status
+
+39 tests
+79 assertions
+
+Next Step
+
+HTTP module (MVP Core)
