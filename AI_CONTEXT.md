@@ -65,6 +65,25 @@ Pendentes:
 - Mail
 - Queue
 
+Estado atual do Core
+
+- Container completo
+- Service Providers
+- Config
+- HTTP
+- Router
+- View
+- Components
+- Session
+- Database
+    - Connection
+    - QueryBuilder
+    - Migrator
+    - DatabaseServiceProvider
+- Console
+    - Application desacoplada
+    - Commands independentes
+
 ---
 
 ## Filosofia

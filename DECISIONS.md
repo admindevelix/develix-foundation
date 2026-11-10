@@ -103,3 +103,11 @@ Consequences:
 - menos código morto
 - menos abstrações desnecessárias
 - arquitetura guiada por uso real
+
+## Console
+
+A composição dos comandos pertence ao bootstrap da aplicação.
+
+O Core não instancia comandos automaticamente.
+
+Cada aplicação (ex.: Develix Market) é responsável por registrar apenas os comandos que desejar disponibilizar.

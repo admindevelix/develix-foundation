@@ -1,17 +1,22 @@
 MVP DO CORE
 
-[x] Container
-[x] DI
-[x] Application
-[x] Providers
-[x] Config
+## Core
 
-[ ] HTTP
-[?] Router (precisa verificar o que temos e o que falta)
-[ ] Views
-[ ] Database
-[ ] Validation
-[ ] Session
+- [x] Container
+- [x] Service Provider
+- [x] Application
+- [x] Config
+- [x] HTTP
+- [x] Router
+- [x] View
+- [x] Components
+- [x] Session
+- [x] Database
+- [x] Console
+
+Próxima etapa:
+
+- [ ] Develix Market (primeiro produto)
 
 ============================
 

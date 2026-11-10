@@ -68,3 +68,18 @@ Somente após todos os providers terem sido registrados é iniciada a fase de bo
 Isso garante que qualquer provider possa depender de serviços registrados por outro provider.
 
 Após a aplicação ser inicializada (`boot()`), qualquer provider registrado posteriormente será automaticamente inicializado.
+
+## Sistema de Views
+
+O Develix Core fornece uma camada simples de renderização baseada em arquivos PHP.
+
+As views, layouts e componentes pertencem à aplicação consumidora, e não ao Core.
+
+Estrutura esperada na aplicação:
+
+```text
+app/
+├── Components/
+├── Layouts/
+└── Views/
+```
